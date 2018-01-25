@@ -23,5 +23,7 @@ def line(people_in_line)
       counter = 0
       index_and_name << "#{counter + 1}. #{people_in_line[counter]}".
       # puts "The line is currently: #{people_in_line}. #{people_in_line[counter]}"
+    end
+  end 
   end
 end
