@@ -21,7 +21,6 @@ def line(people_in_line)
   elsif people_in_line.size > 0
     index_and_name = []
     people_in_line.each do |index|
-      index = 0
       index_and_name << ["#{index + 1}. #{people_in_line[index]}"]
       index += 1
 
