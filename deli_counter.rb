@@ -7,7 +7,7 @@ def line(people_in_line)
     counter = 0
     puts "The line is currently: #{counter + 1}. #{people_in_line[counter]}"
     counter += 1
-    break if counter > people_in_line.size
+    break if counter == people_in_line.size
     end
   end
 end
