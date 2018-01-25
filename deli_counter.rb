@@ -27,6 +27,6 @@ def line(people_in_line)
       # binding.pry
       line_display.join(, )
       # puts "The line is currently: #{people_in_line}. #{people_in_line[counter]}"
-  end
+  # end
   end
 end
