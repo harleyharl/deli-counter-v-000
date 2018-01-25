@@ -24,7 +24,5 @@ def line(people_in_line)
       line_display << ["#{index + 1}. #{people_in_line[index]}"]
 
       # puts "The line is currently: #{people_in_line}. #{people_in_line[counter]}"
-
-  end
   end
 end
