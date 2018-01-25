@@ -4,7 +4,7 @@ def line(people_in_line)
     puts "The line is currently empty."
   elsif people_in_line.size > 0
     counter = 0
-    puts "The line is currently: #{counter}'.'#{people_in_line[counter - 1]}"
+    puts "The line is currently: #{counter}.#{people_in_line[counter - 1]}"
     counter += 1
   end
 end
