@@ -19,9 +19,12 @@ def line(people_in_line)
   if people_in_line.size == 0
     puts "The line is currently empty."
   elsif people_in_line.size > 0
-    people_in_line.each do |index_and_name|
-      counter = 0
-      index_and_name << "#{counter + 1}. #{people_in_line[counter]}"
+    index_and_name = []
+    people_in_line.each do |index|
+      index = 0
+      index_and_name << ["#{index + 1}. #{people_in_line[index]}"]
+      index += 1
+
       # puts "The line is currently: #{people_in_line}. #{people_in_line[counter]}"
 
   end
