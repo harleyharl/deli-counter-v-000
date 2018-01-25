@@ -24,9 +24,8 @@ def line(people_in_line)
       counter = 0
       line_display << "#{people_in_line[counter + 1]}. #{people_in_line[counter]}"
       counter += 1
-    end
-      # binding.pry
-      line_display.join
+      end
+      line_display
       binding.pry
       # puts "The line is currently: #{people_in_line}. #{people_in_line[counter]}"
   end
