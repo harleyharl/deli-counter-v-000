@@ -10,5 +10,6 @@ def line(people_in_line)
     if counter == people_in_line.size
       break
     end
+    end
   end
 end
