@@ -21,8 +21,9 @@ def line(people_in_line)
   elsif people_in_line.size > 0
     line_display = []
     people_in_line.each do |index|
-      line_display << ["#{people_in_line[index + 1]}. #{people_in_line[index]}"]
-
+      counter = 0
+      line_display << ["#{people_in_line[counter + 1]}. #{people_in_line[counter]}"]
+      counter += 1
       # puts "The line is currently: #{people_in_line}. #{people_in_line[counter]}"
   end
   end
