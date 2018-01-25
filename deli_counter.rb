@@ -24,7 +24,7 @@ def line(people_in_line)
       counter = 0
       line_display << "#{people_in_line[counter + 1]}. #{people_in_line[counter]}"
       counter += 1
-    end 
+    end
       # binding.pry
       line_display.join
       binding.pry
